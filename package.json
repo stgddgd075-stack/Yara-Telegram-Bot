@@ -1,0 +1,21 @@
+{
+  "name": "yara-telegram-bot",
+  "version": "1.0.0",
+  "description": "ربات تلگرامی یارا - چت‌بات هوشمند با Gemini. ساخته شده توسط امیرحسین پهلوان (@Amir13900001)",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": ["telegram", "bot", "gemini", "yara", "ai"],
+  "author": "امیرحسین پهلوان (@Amir13900001)",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
